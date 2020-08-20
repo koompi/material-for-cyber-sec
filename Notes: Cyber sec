@@ -1,0 +1,437 @@
+
+Video -=1=-
+
+    Foundations of Cybersecurity
+
+> General understanding
+    Isaca, nist framework, risk controls and malware.
+
+Video -=2=-
+
+    National and economic well being
+
+> cyberspace important to infrastructure
+> DSCI framework for commmitment to open and secure cyber
+> global and open nature of the internet brings threats
+> NIST framework for private sector
+> NIST cyber is an action orientated framework. 
+> Framwork core: set of activities to achive certain areas.
+> Implimentation tiers: 1. Patial implementation (ad hoc and reactive) not based on risk        objectives. 2: Risk informed, informal sharing of cyber internally not repeated externally.     4: LIke the last but also compared externally.
+> Frame work profile provides a view of risk by combining busdiness outocmes with Cyber         activities.
+> Framwork Funtion subdivision: Each of the NIST functions have subcatagories, containing a totoal of 20 possible actions
+> Freamwork function can also be referred to as security plan
+> Implementation of NIST: 
+    1. Identify business outocmes
+    2. Understand threats and vulnerabilities
+    3. create current profile
+    4. conduct a risk assessment
+    5. Decide on the target profile
+
+video -=4=-
+
+    Risk
+
+> Cyber risks related to business. (managing risk)
+
+> Can refer to NIST SP 800-30 guide for conducting risk assessments 
+> also can use ISO 27005, information security risk management  
+
+> Risk of attacking is calculated by a lot of factors such as: 
+> Money 
+> Inelegance
+> Risk assessment, finding the weak points within a business e.g. computers, servers, or        other devices connected to the network. 
+
+> Maybe if the server is kept in the underneath of the building it would be vulnerable to a     flooding event. 
+
+> A server that has no emergency power supply may be vulnerable to a power outage event. 
+
+NOTE: The difference between these two risks and compared to the risk of e.g. a website being hacked is that if a server gets flooded it will be down for weeks, if a website gets hacked it could be down for weeks but will most likely just be annoying to fix. This is risk assessment, assessing where the biggest risks lie and how likely they are to happen.   
+
+
+Video -=5=- 
+
+    COBIT (COntrol objectives for IT)
+
+> COBIT published by ISACA
+> To ensure that enterprises have in place effective and audible management process for IT 
+> Designed around 4 areas Plan, build, deliver, monitor.
+> COBIT used by financial sector
+> COBIT aligned sec network first step to meet regulation 
+> AP013 Manage Sec, DSS05 Manage security services two main focuses.
+
+    1) APO13 -manage security- Define, operate and monitor a system for information security management 
+        > support IT and business compliance
+        > support the management of IT and enterprise risk
+        > Contribute to the transparency of IT costs and benefits
+        > Ensure the security of info, infrastructure and applications 
+        > provide reliable information for sec action 
+
+    2) DSSO5 based on network controllers ethics and transparency
+        > Defines requirements of operational sec
+        > Support IT and Bus comply 
+        > support the management of IT and enterprise risk Ensure the security of information, infrastructure and applications 
+
+Video -=6=- 
+
+    Continuation of DSS05
+
+    3) DSSO5.01
+        >  Protect against malware, make sure to cover all possible aspects of protection.
+            - ensure security of network against malware
+                1) Install and activate malicious software detection and prevention         tools
+                        ~ Make sure malware definition files are updated, with all the 
+                          Malware Is related to your systems vulnerabilities
+                2) Filter incoming traffic e.g. downloads and emails and detect any implantation malware.
+    4) DSS05.02
+        >  Manage network and connectivity security
+            - Monitor all network connection gateways and protect all information being transferred in and out
+            - Implement network filtering systems 
+                1) Perimeter network filtering
+                2) internal network zoning 
+    5) DSSO5.03
+        > Manage endpoint security
+            - Make Sure endpoints are secured with the same security as what is running on the main network or a higher level of security. never lower.
+                ~ e.g. if the network is running windows 7 firewall all endpoints need to use windows 7 firewall or a higher level firewall.
+            - Malicious software detection 
+            - Filter incoming traffic
+                ~ can stop things like phishing emails or spyware embedded in email containing documents 
+            - Implement firewalls and intrusion prevention systems 
+            - Network zoning can protect information 
+            - Data Loss prevention is support
+    6) DSS05.04
+        > Manage user identity and logical access
+            - Usually the biggest project within the security program
+            - Make sure all users have permission to access and be denied access.
+            - Make sure one person can access and edit/create/delete permission files
+            - When staff member leaves organization their permission and accounts will 
+                be deactivated.
+            - Each person needs specified access permissions, so if in case there is a 
+                problem it can be traced back to an exact person
+            - NIST also has the same protocol based under the protection category
+    7) DSS05.05
+        > Manage Physical access to IT
+            - 
+    8) DSS05.06
+        > Manage sensitive documents and output devices
+    9) DSS05.07
+        > Monitor infrastructure for security-related events
+            - Use of intrusion detection tools and monitor the infrastructure 
+
+Video -=7=- 
+
+    Framework controls
+
+    > Mitigate risks
+    > Value of cyber controls is the difference between the accessed impact of a cyber attack and the cost of controls required to protect against it.
+    > Inherent risk is the risk at hand once it has been dealt with there is usually a smaller risk leftover know as residual risk
+    > COntrols can mitigate risk by deterring attack, preventing an attack, detecting an attack and correcting an attack
+    > Important when building a control strategy to combine controls for the most likely to succeed defense 
+    > Multi tier control strat 
+    > Access control: anyone trying to assecc is deterred unless authorized. 
+    > Government policy 
+    > PCI data security
+    > Critical infrastructure all are external security implementations
+
+Video -=8=- 
+
+    Payment Card Industry 
+
+    > PCI governing body issued PCI data security standard.
+    > Merchant -- takes credit card as payment 
+    > Service Provider -- is the service the merchant unless
+    > Security assessor is recognized to make sure service provider uses all necessary security protocols 
+    > Internal Sec assessor -- same as previous except they work for the merchant and can self assess for the merchant 
+    > Data breach failure of security
+    > card breach will trigger -- investigation, safe harbor of fine, remediation
+    
+        PCI Data security standard: 
+
+        >  3.1: 12 technical operational areas 
+            - effective firewall config standard
+            
+        PCI DSS Requirements
+
+        > Configure firewall setting, mobile devices as well included 
+        > Change default password and settings 
+        > Protect stored cardholder stat, not card data can be stored, not even in hashed form
+        > encrypt transmission across any networks 
+        > Must implement antiviruses, regular scans must be taken
+        > Maintain secure system and applications attention for SQl injections. 
+        > Maintain an information security policy. 
+
+    > ATMS and card readers are targeted by scammers, the summer reads any card put into the machine. 
+
+Video -=9=-
+
+    Cyber Essentials
+
+    > Current standards are too demanding
+    > Cyber essentials use existing standards (ISO and NIST) it's just cheaper. 
+    > Stage one, submit self assessment for external review
+    > Requires evidence of security across 5 groups
+
+        1. Boundary defence 
+        2. Secure Configuration 
+        3. User access control
+        4. Malware protection 
+        5. Patch management 
+
+    > Designed to ensure protection from internet facilitated attacks
+    > Boundary firewalls and internet gateways 
+        - Admin password must be changed
+        - Documented and authorized rules
+        - Obsolete rules removed
+
+Video -=10=-
+
+    Cyber attack
+
+    > Mostly from organized criminals and state funded agents
+    > Cyber kill chain
+        1. Reconnaissance: Getting information about target
+            - Targeting a business we will start with a known inter (website) address and then scan it to find other targets within the business. Using (nmap usually) for port scanning individual machines within a business.
+            - Using a botnet (people computers hacked to hackers and use the PC resources) hackers will usually carry out automated scans.
+        2. Weaponization: Can be purchased
+        3. Delivery: Most common way of delivery can be via downloadable .txt document 
+            - Can be delivered via hacked website
+        4. Exploitation: email, web and usb based attacks packet will auto open 
+        5. Installation: Hacker will then use the open packet to drop a payload into system
+        6. COmmands and control: The malware may be designed to accept the hacker to remotely access it to update or rebuild it in order for the payload to continue running for prolonged periods of time
+        7. Actions: Hack may want to deface a website, agent may want to steal information or cyber criminal may want to take bank account details.   
+    
+Video -=11=-
+
+    Inter company fraud
+
+        Different types of inter company fraud: 
+        -Ghost employees. Using fake employees to declare salary and funneling it into your account.
+            > Can also be using employees that don't work at the company anymore. 
+
+        > Salami shaving: taking minute amounts out of transactions or decimals off of the final sum of money.  
+            by using more < datafile.txt:hidden.txt.
+
+       > Executable files can also be hidden inside of hidden files, e.g. inserting the windows calc into a file. When the main file is called it will not show any change in the file's size. However when we check into the hidden file we would see the calc application. 
+
+       > All of the above cannot be used in windows 7 and above.  a fake product, they can use it to scam people who think they are paying for a real product 
+            - by using more < datafile.txt:hidden.txt.
+
+       > executable files can also be hidden inside of hidden files, e.g. inserting the windows calc into a file. When the main file is called it will not show any change in the file's size. However when we check into the hidden file we would see the calc application. 
+
+       > All of the above cannot be used in windows 7 and above. 
+            - by using more < datafile.txt:hidden.txt.
+
+       > Executable files can also be hidden inside of hidden files, e.g. inserting the windows calc into a file. When the main file is called it will not show any change in the file's size. However when we check into the hidden file we would see the calc application. 
+
+       > All of the above cannot be used in windows 7 and above. 
+            -by using more < datafile.txt:hidden.txt.
+
+       > Executable files can also be hidden inside of hidden files, e.g. inserting the windows calc into a file. When the main file is called it will not show any change in the file's size. However when we check into the hidden file we would see the calc application. 
+
+        >-All of the above cannot be used in windows 7 and above. 
+
+Video -=13=-
+
+      > if the infection can hide from selection it's successful 
+  
+      > Microsoft uses hidden files to store browsing data for internet explorers. 
+  
+          - Can directly call the hidden file I.E: c:\users\user\appdata\local\microsoft\windows
+  
+      > Listing the  contents of just that screen would not show the history files, as it's hidden. How ever if you 'cd history' you will be directed to the history file. >
+      > this is done by using two fields inside of the folder. 
+           1) CLSID 
+           2)UICLSID
+      > These two fields prevent the history file from being seen in 'windows explorer'
+      > Alternate data streams: Not used in MS-DOS days as MS-DOS files were just strings of data that were read byte by byte by the application. 
+      > Now we use NTFS files which are very complex structures, the most important part to note about NTFS is that the '$DATA' directory is  the only dir visible in the file explorer, how ever it's not the only place data is stored, Data can also be stored in other sections called alternate data streams. 
+      
+      > by using more < datafile.txt:hidden.txt.
+      > Executable files can also be hidden inside of hidden files, e.g. inserting the windows calc into a file. When the main file is called it will not show any change in the file's size. However when we check into the hidden file we would see the calc application. 
+      > All of the above cannot be used in windows 7 and above. 
+
+      TROJAN DOWNLOADER3 (TDL3) 
+      
+      Dramatic Music Plays*  
+      
+        - Trojans were also implemented by the military.
+        - Trojans can come in the form of root kits as well.
+
+      > Developed by Dogma Millions cybercrime group   
+      > Masks itself as a printer driver   
+      > Can use the whole system as a way of completing its task  
+
+Video -=14=-
+
+    WINDOWS WEAKNESS
+
+      Windows allows processes to look at all key strokes. 
+
+      > Windows used a keyboard callback routine to listen for hotkeys.
+      > We can construct a keyboard hook call back routine program, using c++.      
+      > Keypress has two evented, button down and up. We only need to look for btn up.      
+      > We can use programs like this one to Gain Access to a victim's PC or sensitive information, they are difficult to detect as they just look like a simple windows task. 
+
+Video -=15=-   
+
+    The RootKit
+
+      > Deploying rootkit. 
+       
+         1) penetrate system use dropper to inject rootkit. 
+      
+      > Dropper checks if the rootkit is alr in the system, and also checks to see if the machine is real or virtual. 
+      > Inserts rootkit into the system and makes sure it will automatically restart. 
+      > Rootkits are not classified as viruses , they are meant to be within a system and use these systems tools to carry out their given task. 
+      > Root kit designed to bypass virus detection services, it looks for code and disables it, or hides itself within the kernel of the device using a loadable kernel module or driver. 
+      > windows driver development kit. 
+      > Root kits operate in deep kernel 'ring 0'
+         -Root kits can be given access to SSH in order for hackers to view what's going on within the computer. Also the hackers can send malware via the encrypted SSH channel. 
+
+Video -=16=-
+
+    THE APT  Advanced persistent threads (APT's)
+
+      > Directed at government and military targets.
+      > Specifically customized code tailored to what their mission is. 
+      > Can be exploiting multiple things at one time.
+      > Are not completely autonomous, will need to be deployed by a human. 
+      > They are designed to operate in a low and slow manner avoiding any chance of detection from softwares or humans.
+
+      > The uses of an APT could be for espionage  to get sensitive information on their specific target. 
+
+      > They can also be used for sabotage, to disrupt the operation of key computer systems e.g. telecommunications, power or water. 
+
+Video -=17=-
+
+    Ransomware
+
+    > Having backups can avoid being a huge victim of ransomware. 
+    > Ransomware is malware put onto a target system that locks the system and demands money for the unlock key. 
+    > Ransomware uses an encryption known as A symmetrical encryption. 
+    > Crypto locker 2013 - 2014, Torrent locker and crypto wall
+    > Used phishing campaigns hyper link to malicious website 
+    > newer version can use word doc with embedded macro
+
+        Cryptolocker: 
+        - Installs automatically 
+        - Connects to command & control server on randomly generated Domain name 
+        - Generates encryption key with AES 
+        - Uses RSA encryption system, which sends the key to the control server, so it's not stored anywhere on the victim's PC. 
+    
+Video -=18=-
+
+    Historical security 
+
+    > Systems designed to protect info from unauth access. 
+        - 1970's Non repudiation was required as security for all internet commerce 
+        - 2005 Sherwook applied business security architecture (SABSA)
+            1) Strong sec leads to business successful 
+            2) Security requirements protect business outocmes
+    
+    > SABSA forcusses on 4 key points 
+        1) Understand business requirements 
+        2) Develop security architecture
+        3) Design and implement 
+        4) Through life management 
+    
+    > Sabsa matrix is used to capture all major movements on a network
+        - What 
+        - Why 
+        - When 
+        - Who 
+    
+Video -=19=-
+
+    Business security
+
+    > Architect risk and control 
+        - Risk to business outcomes 
+        - controls mitigate 
+        - Business profiling.
+
+    > Calculating risk 
+        - Using SP800: Guide for Conducting risk Assessments 
+        - ISO 27005: Information Security Risk Management 
+        - The  two frameworks above can be used to calculate a risk.
+
+    > Business requirement
+        - Security and privacy controls : High level needs to be broken down into smaller controls
+            1) Access is controlled
+            2) Access is reviewed 
+            3) Privileged access needs to be strictly controlled e.g. using 2 factor authentication.
+            4) Staff approved storage and processing of data offshore
+            5) stored personal data is protected
+            > the following 5 attributes make up security and controls protocol. 
+            > Each of the below have their on attributes that are used to calculate their end result
+        - Third-party contractual security obligation are audited
+        - The service meets its operational SLAs 
+        - Services are available 
+
+    > Using an attribute board is a way to map out all of the relevant attributes in order to makeup the risk assessment in visual form 
+
+Video -=20=-
+
+    Mitigate Risk with control (Calculate the right response to a risk)
+
+    > Risk can come from physical sources (USB, Computer on the network) or directly from internet
+    > Controls designed to reduce the risk to acceptable residual risk
+    > Firewalls can be used for zoning in enterprise networks.
+    > Enterprises also use network monitors to document all in-going andout-going traffic
+    > No way to see if service provider is accessing network as there is no monitor for entry from that access protocol only the service provider can see that in their logs
+    > If hackers get into the service provider network they can access an enterprise network (as long as they are using the service provider) undetected.
+
+Video -=21=-
+
+    DSSO5.04/Cryptography and user security
+
+> (Covered in DSS05.04)
+
+> Cryptography will transform readable text into hashed text until it's called again by     the user account with the specific account key in order to de-auth the hash. 
+    A cryptographic key is assigned to the user
+> The cryptographic key will transform the hashed text back into readable form
+> CHeck www.lynda.com/Wireshark-tutorial/Essentials-Cryptography-Network-Security/369186-2.html
+
+Video -=24=-
+
+     Incident Management 
+    
+    > It is not avoidable when it comes to being hacked. After a while everyone will be hacked.
+    > Difference between inconvenience and major set back when it comes to being hacked
+        ~ Making it an inconvenience 
+
+    > NIST Cyber Framework (Set of Control objectives)
+
+    > Respond 
+        1) Planning 
+        2) Communicate
+        3) Analysis
+        4) Mitigation
+        5) Improvements
+    > Recovery uses the same categories but only 1,2 and 5.
+    > NIST developed a first responder program to assist organizations that have been victims of attack. It's called First (first.org)
+
+Video -=25=- 
+
+    Situational Awareness 
+
+    > Threat intelligence 
+        - The ability to develop strategic and detailed reports on threats
+            ~ can be used as a way to raise awareness for future workers.
+        - Tactical information exchanges 
+            ~ Can be used to gather and build information on national threats
+        -Operational feeds for indicators of compromise (IOC) 
+            ~ is the use of information shared between banking networks to raise awareness about real time threats and vulnerabilities.  
+
+Video -=26=-
+
+    Incident Response 
+
+    >  Non stop monitoring 
+    > Ongoing preparation cyber crisis exercises
+
+    > Detection and Analysis
+        - Incoming malware and intrusion 
+            ~ Usually involves watching real time screens monitoring traffic 
+            ~ Malware analyzer always watching monitor to see activity and pickup potential dangerous activity 
+
+    
